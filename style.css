@@ -427,7 +427,7 @@ a {
   color: #86878b;
   font-size: 14px;
 }
-.features__benefits{
+.features__benefits {
   display: flex;
 }
 .features__benefits > *:not(:last-child) {
@@ -444,11 +444,153 @@ a {
   font-weight: bold;
   margin-bottom: 26px;
 }
-.features__benefits-block{
+.features__benefits-block {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
- .features__benefits p {
+.features__benefits p {
   text-align: center;
+}
+
+.pricing {
+  padding: 106px 0;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.pricing__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.pricing__header h2 {
+  font-family: 'Raleway';
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.pricing__header p {
+  color: #86878b;
+  margin: 30px 0 20px 0;
+}
+
+.pricing__header .line {
+  border-bottom: 2px solid #ff9b51;
+  padding-top: 0;
+}
+
+.pricing__cards {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.pricing__card {
+  background-color: white;
+  max-width: 340px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.pricing__card h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.pricing__price {
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 36px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.pricing__value {
+  font-family: 'Raleway';
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 28px;
+}
+.pricing__value-dollar {
+  font-size: 35px;
+}
+.pricing__value-number {
+  font-size: 94px;
+}
+.pricing__note {
+  font-size: 14px;
+  color: #999;
+  margin-top: 5px;
+  font-style: italic;
+}
+.pricing__divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff9b51;
+  min-height: 5px;
+  width: 100%;
+}
+.pricing__divider p {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 15px 0;
+}
+.pricing__badge {
+  background-color: #f17c32;
+  color: white;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.pricing__features {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  font-size: 14px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.pricing__features li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #86878b;
+  padding: 10px;
+  border-top: 1px solid #f5f5f5;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.pricing__features li:first-child {
+  border-top: none;
 }
