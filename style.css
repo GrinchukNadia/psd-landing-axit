@@ -72,7 +72,6 @@ a {
 }
 
 .info {
-  /* height: 390px; */
   width: 520px;
   padding-top: 106px;
   padding-bottom: 136px;
@@ -106,7 +105,7 @@ a {
 .download {
   height: 42px;
   width: 135px;
-  background-color: #9a9a9a;
+  background-color: transparent;
   border: 2px solid #ffffff;
   font: Raleway;
   color: #ffffff;
@@ -364,6 +363,10 @@ a {
   display: flex;
   margin-top: 48px;
 }
+.features__additiщnal h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
 .features__additiщnal p {
   color: #86878b;
   font-size: 14px;
@@ -593,4 +596,129 @@ a {
 
 .pricing__features li:first-child {
   border-top: none;
+}
+
+.testimonials {
+  padding: 108px 0 100px 0;
+  text-align: center;
+  background-color: #ffffff;
+}
+.testimonials__header h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  font-weight: normal;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.testimonials__header .line {
+  border-bottom: 1px solid #ff9b51;
+  margin: 10px auto;
+}
+
+.testimonials__header p {
+  color: #afb0b2;
+  font-size: 14px;
+}
+
+.testimonials__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 54px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.testimonial__card {
+  background-color: #fff;
+  padding: 30px;
+  flex: 1;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.testimonial__text {
+  background-color: #f5f5f5;
+  padding: 24px 15px;
+  font-style: italic;
+  color: #86878b;
+  font-size: 14px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.tooltip-arrow {
+  position: absolute;
+  background-color: #f5f5f5;
+  width: 30px;
+  height: 30px;
+  left: 50px;
+  top: 165px;
+  transform: rotate(45deg) skew(10deg, 10deg);
+}
+.testimonial__author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.testimonial__photo {
+  width: 70px;
+  height: 70px;
+  background-color: #9a9a9a;
+  border-radius: 50%;
+}
+.testimonial__info {
+  text-align: left;
+}
+.testimonial__info strong {
+  display: block;
+  color: #333;
+  font-size: 20px;
+}
+
+.testimonial__info span {
+  font-size: 12px;
+  color: #86878b;
+  text-align: left;
+}
+
+.highlight {
+  background-color: #9a9a9a;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+.highlight__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.highlight h2 {
+  font-size: 36px;
+  font-weight: lighter;
+  font-family: 'Raleway';
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.highlight p {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #ccc;
+  margin-top: 30px;
+}
+
+.download__btn {
+  background-color: #ff9b51;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
